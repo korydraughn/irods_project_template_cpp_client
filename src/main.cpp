@@ -4,6 +4,23 @@
 
 #include <fmt/format.h>
 
+class fancy_integer
+{
+	public:
+		void set(int v)
+		{
+			value = v;
+		}
+
+		[[nodiscard]] int get() const noexcept
+		{
+			return value;
+		}
+
+	private:
+		int value;
+};
+
 int func_with_many_params(int a,
                           int b,
                           int c,

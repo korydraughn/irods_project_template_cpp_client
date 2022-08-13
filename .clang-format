@@ -95,7 +95,8 @@ IncludeCategories:
      CaseSensitive:   false
 IncludeIsMainRegex: ''
 IncludeIsMainSourceRegex: ''
-IndentAccessModifiers: false
+#IndentAccessModifiers: false
+IndentAccessModifiers: true
 IndentCaseLabels: true
 IndentCaseBlocks: false
 IndentGotoLabels: true
