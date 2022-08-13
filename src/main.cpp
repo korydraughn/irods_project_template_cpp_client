@@ -20,14 +20,14 @@ int main()
 {
 	int long_variable_name_for_function_1 = 0;
 	func_with_many_params(
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		long_variable_name_for_function_1,
-		func_with_many_params(long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    long_variable_name_for_function_1,
+	    func_with_many_params(long_variable_name_for_function_1,
 	                          long_variable_name_for_function_1,
 	                          long_variable_name_for_function_1,
 	                          long_variable_name_for_function_1,
