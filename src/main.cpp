@@ -4,8 +4,30 @@
 
 #include <fmt/format.h>
 
+int func_with_many_params(int a, int b, int c, int d, int aa, int bb, int cc, int dd)
+{
+	return 0;
+}
+
 int main()
 {
+	int long_variable_name_for_function_1 = 0;
+	func_with_many_params(long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      long_variable_name_for_function_1,
+	                      func_with_many_params(long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1,
+	                                            long_variable_name_for_function_1));
+
 	rodsEnv env;
 
 	if (const int ec = getRodsEnv(&env); ec != 0) {
