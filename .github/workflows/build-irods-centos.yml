@@ -1,8 +1,8 @@
 name: build-irods-centos
-on: [push, pull_request]
+on: pull_request
 jobs:
     compile_irods:
-        uses: korydraughn/irods_reusable_github_workflows/.github/build-irods-centos.yml
+        uses: korydraughn/irods_reusable_github_workflows/.github/workflows/build-irods-centos.yml@main
 # build:
 #   name: ${{ matrix.container }}
 #   runs-on: ubuntu-latest

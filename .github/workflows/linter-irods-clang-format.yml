@@ -5,7 +5,7 @@ defaults:
         shell: bash
 jobs:
     check_formatting:
-        uses: korydraughn/irods_reusable_github_workflows/.github/linter-irods-clang-format.yml
+        uses: korydraughn/irods_reusable_github_workflows/.github/workflows/linter-irods-clang-format.yml@main
 #   clang-format:
 #       runs-on: ubuntu-latest
 #       steps:

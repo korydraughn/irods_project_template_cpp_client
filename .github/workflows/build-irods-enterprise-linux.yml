@@ -1,8 +1,8 @@
 name: build-irods-enterprise-linux
-on: [push, pull_request]
+on: pull_request
 jobs:
     compile_irods:
-        uses: korydraughn/irods_reusable_github_workflows/.github/build-irods-enterprise-linux.yml
+        uses: korydraughn/irods_reusable_github_workflows/.github/workflows/build-irods-enterprise-linux.yml@main
 # build:
 #   name: ${{ matrix.container }}
 #   runs-on: ubuntu-latest

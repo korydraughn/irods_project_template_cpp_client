@@ -7,18 +7,18 @@
 class fancy_integer
 {
 public:
-	void set(int v)
-	{
-		value = v;
-	}
+    void set(int v)
+    {
+	    value = v;
+    }
 
-	[[nodiscard]] auto get() const noexcept -> int
-	{
-		return value;
-	}
+    [[nodiscard]] auto get() const noexcept -> int
+    {
+	    return value;
+    }
 
  private:
-	int value;
+    int value;
 };
 
 int func_with_many_params(int a,

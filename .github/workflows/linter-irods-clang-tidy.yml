@@ -4,8 +4,8 @@ defaults:
     run:
         shell: bash
 jobs:
-    check_formatting:
-        uses: korydraughn/irods_reusable_github_workflows/.github/linter-irods-clang-tidy.yml
+    check_code:
+        uses: korydraughn/irods_reusable_github_workflows/.github/workflows/linter-irods-clang-tidy.yml@main
 #   clang-tidy:
 #       runs-on: ubuntu-latest
 #       steps:
