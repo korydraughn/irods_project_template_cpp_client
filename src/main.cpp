@@ -6,13 +6,13 @@
 
 class fancy_integer
 {
- public:
+public:
 	void set(int v)
 	{
 		value = v;
 	}
 
-	[[nodiscard]] int get() const noexcept
+	[[nodiscard]] auto get() const noexcept -> int
 	{
 		return value;
 	}
