@@ -28,13 +28,13 @@ int main(int _argc, char* _argv[]) // NOLINT(modernize-use-trailing-return-type)
         return 0;
     }
     catch (const fs::filesystem_error& e) {
-        fmt::print("error: {}\n", e.what());
+        fmt::print(stderr, "error: {}\n", e.what());
     }
     catch (const irods::exception& e) {
-        fmt::print("error: {}\n", e.client_display_what());
+        fmt::print(stderr, "error: {}\n", e.client_display_what());
     }
     catch (const std::exception& e) {
-        fmt::print("error: {}\n", e.what());
+        fmt::print(stderr, "error: {}\n", e.what());
     }
 
     return 1;
